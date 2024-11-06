@@ -123,6 +123,11 @@ export default function Home({ data }) {
               Quick Links
             </Card.Header>
             <ListGroup variant="flush">
+            <ListGroup.Item>
+                <Link href="https://interviews-at-iiit.vercel.app/">
+                  <a>Interviews at IIIT - Web Portal</a>
+                </Link>
+              </ListGroup.Item>
               <ListGroup.Item>
                 {" "}
                 <Link href="/placements">Placement Statistics </Link>
@@ -151,7 +156,9 @@ export default function Home({ data }) {
                   <a>Placement Brochure</a>
                 </Link>
               </ListGroup.Item>
-              <ListGroup.Item>
+              
+              {/* removed faculty profile */}
+              {/* <ListGroup.Item>
                 <Link href="/faculty.pdf">
                   <a>Faculty Profile</a>
                 </Link>
